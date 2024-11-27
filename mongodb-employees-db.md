@@ -1,25 +1,9 @@
 
-# MongoDB `mongosh` Tutorial Using `employees` Database
+# MongoDB `mongosh` `employee` db example
 
-This tutorial demonstrates how to use the MongoDB Shell (`mongosh`) to work with an `employees` database, including its creation, querying, updating, and advanced operations.
-
----
-
-## Prerequisites
-
-1. Install **MongoDB** and the `mongosh` CLI from [MongoDB Downloads](https://www.mongodb.com/try/download/shell).
-2. Ensure MongoDB is running locally or have the connection string to a remote MongoDB instance.
-
----
-
-## Getting Started
 
 ### Start MongoDB Shell
 
-Run the following command to open the MongoDB Shell:
-```bash
-mongosh
-```
 
 ### Create or Select the `employees` Database
 ```javascript
@@ -188,9 +172,3 @@ db.dropDatabase();
   ```
 
 ---
-
-## Conclusion
-
-This tutorial provides a comprehensive guide to using `mongosh` commands with the `employees` database. It covers database creation, CRUD operations, aggregation, indexing, and more.
-
-Happy Learning!
