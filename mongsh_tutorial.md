@@ -1,6 +1,7 @@
 
 # MongoDB `mongosh` Tutorial 
 
+[Examples](https://github.com/ananthakrishnanpta/mongodb-tutorial/edit/main/mongsh-employees.md)
 
 ---
 
