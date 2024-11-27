@@ -1,7 +1,6 @@
 
-# MongoDB `mongosh` Tutorial Using `student` Collection
+# MongoDB `mongosh` Tutorial 
 
-This tutorial provides a detailed guide for using the MongoDB Shell (`mongosh`) to interact with a `student` collection.
 
 ---
 
@@ -178,9 +177,3 @@ db.dropDatabase();
 - For a full list of shell commands, consult the [MongoDB Documentation](https://www.mongodb.com/docs/manual/reference/method/).
 
 ---
-
-## Conclusion
-
-This guide demonstrates common `mongosh` commands for working with a `student` collection. These commands help manage and query your data efficiently.
-
-Happy Learning!
