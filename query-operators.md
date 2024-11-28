@@ -1,19 +1,4 @@
-
-# MongoDB `mongosh` Tutorial: Query Operators Explained
-
-This tutorial provides a detailed explanation of MongoDB query operators with examples, using the `employees` database created in previous tutorials.
-
----
-
-## Prerequisites
-
-1. Install **MongoDB** and the `mongosh` CLI from [MongoDB Downloads](https://www.mongodb.com/try/download/shell).
-2. Ensure MongoDB is running locally or have the connection string to a remote MongoDB instance.
-
----
-
-## Query Operators Overview
-
+# Query Operators in MongoDB
 MongoDB query operators are used to specify conditions in queries. These operators allow you to filter documents based on various criteria.
 
 ### Syntax
@@ -198,8 +183,3 @@ db.employees.find({ permissions: { $bitsAnyClear: 2 } });
 
 ---
 
-## Conclusion
-
-This tutorial explains MongoDB query operators with practical examples using the `employees` database. These operators allow you to construct advanced and efficient queries.
-
-Happy Querying!
