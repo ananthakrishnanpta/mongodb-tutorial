@@ -36,7 +36,7 @@ This switches to the `school` database or creates it if it doesn’t exist.
 - otherwise it can be created using the following command :
 
 ```javascript
-  db.createCollection("posts")
+db.createCollection("posts")
 ```
 
 
