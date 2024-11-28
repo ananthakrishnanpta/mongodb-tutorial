@@ -32,6 +32,14 @@ This switches to the `school` database or creates it if it doesn’t exist.
 
 ## Create and Populate the `student` Collection
 
+- Inserting documents creates the collection automatically if it doesn't exist,
+- otherwise it can be created using the following command :
+
+```javascript
+  db.createCollection("posts")
+```
+
+
 ### Insert Single Document
 ```javascript
 db.student.insertOne({ name: "Alice", age: 20, marks: 85 });
